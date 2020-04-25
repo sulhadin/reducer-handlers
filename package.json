@@ -24,6 +24,9 @@
     "redux reducer",
     "redux reducer handler"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Sulhadin Öney",
   "license": "MIT",
   "bugs": {
