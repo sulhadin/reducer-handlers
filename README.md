@@ -3,7 +3,8 @@
 [![Coverage Status](https://codecov.io/gh/sulhadin/reducer-handlers/branch/master/graph/badge.svg)](https://codecov.io/gh/sulhadin/reducer-handlers)
 [![npm version](https://badge.fury.io/js/reducer-handlers.svg)](https://badge.fury.io/js/reducer-handlers)
 
-reducer-handlers contains Reducer and Action handlers.
+This package is a new approach for redux reducer implementation. Reducer handlers are simple dictionary map handlers 
+and consist of small testable functions.
 
 ## Installation
 ```bash
