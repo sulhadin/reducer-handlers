@@ -1,6 +1,6 @@
 {
-  "name": "redux-reducer-handler",
-  "version": "0.1.0",
+  "name": "reducer-handlers",
+  "version": "0.0.1",
   "description": "The package contains a handler for redux reducer.",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,8 @@
   "keywords": [
     "redux",
     "reducer",
-    "redux reducer",
-    "redux reducer handler"
+    "action",
+    "action type"
   ],
   "publishConfig": {
     "access": "public"

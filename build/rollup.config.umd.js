@@ -3,9 +3,9 @@ import base from './rollup.config.base';
 const config = {
   ...base,
   output: {
-    file: 'dist/sulhadin-redux-reducer-handler.umd.js',
+    file: 'dist/sulhadin-reducer-handlers.umd.js',
     format: 'umd',
-    name: 'redux-reducer-handler',
+    name: 'reducer-handlers',
   },
 };
 

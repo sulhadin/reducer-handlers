@@ -5,9 +5,9 @@ import base from './rollup.config.base';
 const config = {
   ...base,
   output: {
-    file: 'dist/sulhadin-redux-reducer-handler.min.js',
+    file: 'dist/sulhadin-reducer-handlers.min.js',
     format: 'iife',
-    name: 'ReduxReducerHandler',
+    name: 'ReducerHandlers',
   },
 };
 
