@@ -7,7 +7,8 @@ reducer-handlers contains Reducer and Action handlers.
 
 ## Installation
 ```bash
-$ npm install --save reducer-handlers
+$ npm install reducer-handlers
+$ yarn add reducer-handlers
 ```
 
 ##Usage

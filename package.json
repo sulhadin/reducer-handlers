@@ -1,8 +1,11 @@
 {
   "name": "reducer-handlers",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The package contains a handlers for redux.",
-  "main": "index.js",
+  "main": "dist/sulhadin-reducer-handlers.umd.js",
+  "module": "dist/sulhadin-reducer-handlers.esm.js",
+  "unpkg": "dist/sulhadin-reducer-handlers.min.js",
+  "typings": "types/index.d.ts",
   "scripts": {
     "build": "npm run build:browser && npm run build:es && npm run build:umd",
     "build:browser": "rollup --config build/rollup.config.browser.js",
