@@ -11,16 +11,16 @@ export default {
     resolve({
       'jsnext:main': true,
       'mainFields:main': true,
-      browser: true
+      browser: true,
     }),
     cjs({
-      exclude: 'src/**'
+      exclude: 'src/**',
     }),
     babel({
-      exclude: 'node_modules/**'
+      exclude: 'node_modules/**',
     }),
     replace({
-      VERSION: JSON.stringify(config.version)
-    })
-  ]
+      VERSION: JSON.stringify(config.version),
+    }),
+  ],
 };

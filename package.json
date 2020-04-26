@@ -1,7 +1,7 @@
 {
-  "name": "@sulhadin/redux-reducer-handler",
-  "version": "0.0.2",
-  "description": "Sulhadin package that contains a handler for redux reducer.",
+  "name": "redux-reducer-handler",
+  "version": "0.1.0",
+  "description": "The package contains a handler for redux reducer.",
   "main": "index.js",
   "scripts": {
     "build": "npm run build:browser && npm run build:es && npm run build:umd",

@@ -1,11 +1,12 @@
 import base from './rollup.config.base';
 
-const config = Object.assign({}, base, {
+const config = {
+  ...base,
   output: {
     file: 'dist/sulhadin-redux-reducer-handler.esm.js',
     format: 'es',
-    name: '@sulhadin/redux-reducer-handler',
+    name: 'redux-reducer-handler',
   },
-});
+};
 
 export default config;
