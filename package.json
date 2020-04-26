@@ -1,7 +1,7 @@
 {
   "name": "reducer-handlers",
-  "version": "0.0.1",
-  "description": "The package contains a handler for redux reducer.",
+  "version": "0.0.2",
+  "description": "The package contains a handlers for redux.",
   "main": "index.js",
   "scripts": {
     "build": "npm run build:browser && npm run build:es && npm run build:umd",
@@ -16,9 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sulhadin/redux-reducer-handler.git"
+    "url": "git+https://github.com/sulhadin/reducer-handlers.git"
   },
   "keywords": [
+    "react",
     "redux",
     "reducer",
     "action",
@@ -30,9 +31,9 @@
   "author": "Sulhadin Öney",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sulhadin/redux-reducer-handler/issues"
+    "url": "https://github.com/sulhadin/reducer-handlers/issues"
   },
-  "homepage": "https://github.com/sulhadin/redux-reducer-handler#readme",
+  "homepage": "https://github.com/sulhadin/reducer-handlers#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
