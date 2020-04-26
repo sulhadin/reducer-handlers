@@ -1,4 +1,8 @@
 # Reducer handlers
+[![CircleCI](https://circleci.com/gh/sulhadin/reducer-handlers.svg?style=svg)](https://circleci.com/gh/sulhadin/reducer-handlers)
+[![Coverage Status](https://codecov.io/gh/sulhadin/reducer-handlers/branch/master/graph/badge.svg)](https://codecov.io/gh/sulhadin/reducer-handlers)
+[![npm version](https://badge.fury.io/js/reducer-handlers.svg)](https://badge.fury.io/js/reducer-handlers)
+
 reducer-handlers contains Reducer and Action handlers.
 
 ## Installation
