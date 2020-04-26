@@ -1,7 +1,16 @@
 # Reducer handlers
 reducer-handlers contains Reducer and Action handlers.
 
-#Usage
+## Installation
+```bash
+$ npm install --save reducer-handlers
+```
+
+##Usage
+```javascript
+import { generateUpdateStateHandler, generateReducer, dispatchAction } from 'reducer-handlers';
+```
+
 For a good practice of redux reducer implementation, you can organise your default states and action types as separate files.
 
 ````javascript
@@ -45,7 +54,7 @@ handlers[GET_SOME_STATE2] = generateUpdateStateHandler(stateKeys.someState2);
 export default generateReducer(defaultState, handlers);
 ```
 ## Action Handler Usage
-Here is a simple action implementation. For a quick introduction; `dispatchAction` creates and dispatches a simple object.
+Here is a simple action implementation. For a quick introduction; `dispatchAction` creates and dispatches your new result.
 ```javascript
 // getGetSomeAction.js
 
@@ -61,11 +70,6 @@ export const getGetSomeAction = () => {
 };
 ```
 
-## Installation
+### License
 
-Install using npm, yarn, or whatever package manager you use:
-
-```bash
-  npm install reducer-handlers
-  yarn add reducer-handlers
- ```
+MIT
