@@ -1,6 +1,6 @@
 {
   "name": "reducer-handlers",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "The package contains a handlers for redux.",
   "main": "dist/sulhadin-reducer-handlers.umd.js",
   "module": "dist/sulhadin-reducer-handlers.esm.js",
